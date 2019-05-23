@@ -1,0 +1,44 @@
+{
+  version: 8
+  sources: {
+    v: {
+      type: vector
+      tiles: [
+        https://casale.vectortiles.xyz:8888/{z}/{x}/{y}.pbf
+      ]
+      attribution: United Nations and OpenStreetMap contributors
+      maxzoom: 3
+    }
+  }
+  sprite: https://casale.vectortiles.xyz:8888/sprite
+  glyphs: https://vectortiles.xyz/fonts/{fontstack}/{range}.pbf
+  layers: [
+    {
+      id: background
+      type: background
+      paint: {
+        background-color: [
+          rgb
+          187
+          222
+          251
+        ]
+      }
+    }
+    {
+      id: bnda
+      type: fill
+      source: v
+      source-layer: bnda
+      paint: {
+        fill-color: [
+          rgb
+          245
+          245
+          245
+        ]
+      }
+    }
+  ]
+}
+

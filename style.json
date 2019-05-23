@@ -1,0 +1,43 @@
+{
+  "glyphs": "https://vectortiles.xyz/fonts/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "paint": {
+        "background-color": [
+          "rgb",
+          187,
+          222,
+          251
+        ]
+      },
+      "type": "background"
+    },
+    {
+      "id": "bnda",
+      "paint": {
+        "fill-color": [
+          "rgb",
+          245,
+          245,
+          245
+        ]
+      },
+      "source": "v",
+      "source-layer": "bnda",
+      "type": "fill"
+    }
+  ],
+  "sources": {
+    "v": {
+      "attribution": "United Nations and OpenStreetMap contributors",
+      "maxzoom": 3,
+      "tiles": [
+        "https://casale.vectortiles.xyz:8888/{z}/{x}/{y}.pbf"
+      ],
+      "type": "vector"
+    }
+  },
+  "sprite": "https://casale.vectortiles.xyz:8888/sprite",
+  "version": 8
+}
