@@ -30,7 +30,7 @@
   ],
   "sources": {
     "v": {
-      "attribution": "United Nations and OpenStreetMap contributors",
+      "attribution": "The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations",
       "maxzoom": 3,
       "tiles": [
         "https://casale.vectortiles.xyz:8888/zxy/{z}/{x}/{y}.pbf"
