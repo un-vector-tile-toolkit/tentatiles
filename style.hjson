@@ -4,7 +4,7 @@
     v: {
       type: vector
       tiles: [
-        https://casale.vectortiles.xyz:8888/{z}/{x}/{y}.pbf
+        https://casale.vectortiles.xyz:8888/zxy/{z}/{x}/{y}.pbf
       ]
       attribution: United Nations and OpenStreetMap contributors
       maxzoom: 3
