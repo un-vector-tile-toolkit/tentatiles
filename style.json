@@ -26,6 +26,130 @@
       "source": "v",
       "source-layer": "bnda",
       "type": "fill"
+    },
+    {
+      "filter": [
+        "match",
+        [
+          "get",
+          "bdytyp"
+        ],
+        1,
+        true,
+        false
+      ],
+      "id": "bndl-1",
+      "paint": {
+        "line-color": [
+          "rgb",
+          92,
+          99,
+          102
+        ]
+      },
+      "source": "v",
+      "source-layer": "bndl",
+      "type": "line"
+    },
+    {
+      "filter": [
+        "match",
+        [
+          "get",
+          "bdytyp"
+        ],
+        2,
+        true,
+        false
+      ],
+      "id": "bndl-2",
+      "paint": {
+        "line-color": [
+          "rgb",
+          92,
+          99,
+          102
+        ],
+        "line-dasharray": [
+          8,
+          2,
+          2,
+          2
+        ]
+      },
+      "source": "v",
+      "source-layer": "bndl",
+      "type": "line"
+    },
+    {
+      "filter": [
+        "match",
+        [
+          "get",
+          "bdytyp"
+        ],
+        3,
+        true,
+        false
+      ],
+      "id": "bndl-3",
+      "paint": {
+        "line-color": [
+          "rgb",
+          92,
+          99,
+          102
+        ],
+        "line-dasharray": [
+          5,
+          1
+        ]
+      },
+      "source": "v",
+      "source-layer": "bndl",
+      "type": "line"
+    },
+    {
+      "filter": [
+        "match",
+        [
+          "get",
+          "bdytyp"
+        ],
+        4,
+        true,
+        false
+      ],
+      "id": "bndl-4",
+      "paint": {
+        "line-color": [
+          "rgb",
+          92,
+          99,
+          102
+        ],
+        "line-dasharray": [
+          1,
+          1
+        ]
+      },
+      "source": "v",
+      "source-layer": "bndl",
+      "type": "line"
+    },
+    {
+      "id": "wbya",
+      "paint": {
+        "fill-color": [
+          "rgb",
+          187,
+          222,
+          251
+        ]
+      },
+      "source": "v",
+      "source-layer": "wbya",
+      "type": "fill"
     }
   ],
   "sources": {

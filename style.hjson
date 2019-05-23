@@ -39,6 +39,130 @@
         ]
       }
     }
+    {
+      id: bndl-1
+      type: line
+      source: v
+      source-layer: bndl
+      filter: [
+        match
+        [
+          get
+          bdytyp
+        ]
+        1
+        true
+        false
+      ]
+      paint: {
+        line-color: [
+          rgb
+          92
+          99
+          102
+        ]
+      }
+    }
+    {
+      id: bndl-2
+      type: line
+      source: v
+      source-layer: bndl
+      filter: [
+        match
+        [
+          get
+          bdytyp
+        ]
+        2
+        true
+        false
+      ]
+      paint: {
+        line-color: [
+          rgb
+          92
+          99
+          102
+        ]
+        line-dasharray: [
+          8
+          2
+          2
+          2
+        ]
+      }
+    }
+    {
+      id: bndl-3
+      type: line
+      source: v
+      source-layer: bndl
+      filter: [
+        match
+        [
+          get
+          bdytyp
+        ]
+        3
+        true
+        false
+      ]
+      paint: {
+        line-color: [
+          rgb
+          92
+          99
+          102
+        ]
+        line-dasharray: [
+          5
+          1
+        ]
+      }
+    }
+    {
+      id: bndl-4
+      type: line
+      source: v
+      source-layer: bndl
+      filter: [
+        match
+        [
+          get
+          bdytyp
+        ]
+        4
+        true
+        false
+      ]
+      paint: {
+        line-color: [
+          rgb
+          92
+          99
+          102
+        ]
+        line-dasharray: [
+          1
+          1
+        ]
+      }
+    }
+    {
+      id: wbya
+      type: fill
+      source: v
+      source-layer: wbya
+      paint: {
+        fill-color: [
+          rgb
+          187
+          222
+          251
+        ]
+      }
+    }
   ]
 }
 
