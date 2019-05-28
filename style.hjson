@@ -61,7 +61,19 @@
           255
           255
         ]
-        line-width: 2
+        line-width: [
+          interpolate
+          [
+            linear
+          ]
+          [
+            zoom
+          ]
+          0
+          1
+          2
+          2
+        ]
       }
     }
     {
@@ -92,7 +104,19 @@
           2
           2
         ]
-        line-width: 2
+        line-width: [
+          interpolate
+          [
+            linear
+          ]
+          [
+            zoom
+          ]
+          0
+          1
+          2
+          2
+        ]
       }
     }
     {
@@ -121,7 +145,19 @@
           5
           1
         ]
-        line-width: 2
+        line-width: [
+          interpolate
+          [
+            linear
+          ]
+          [
+            zoom
+          ]
+          0
+          1
+          2
+          2
+        ]
       }
     }
     {
@@ -150,7 +186,19 @@
           1
           1
         ]
-        line-width: 2
+        line-width: [
+          interpolate
+          [
+            linear
+          ]
+          [
+            zoom
+          ]
+          0
+          1
+          2
+          2
+        ]
       }
     }
     {
