@@ -6,9 +6,9 @@
       "paint": {
         "background-color": [
           "rgb",
-          187,
-          222,
-          251
+          255,
+          255,
+          255
         ]
       },
       "type": "background"
@@ -18,9 +18,9 @@
       "paint": {
         "fill-color": [
           "rgb",
-          245,
-          245,
-          245
+          187,
+          222,
+          251
         ]
       },
       "source": "v",
@@ -42,9 +42,9 @@
       "paint": {
         "line-color": [
           "rgb",
-          92,
-          99,
-          102
+          255,
+          255,
+          255
         ]
       },
       "source": "v",
@@ -66,9 +66,9 @@
       "paint": {
         "line-color": [
           "rgb",
-          92,
-          99,
-          102
+          255,
+          255,
+          255
         ],
         "line-dasharray": [
           8,
@@ -96,9 +96,9 @@
       "paint": {
         "line-color": [
           "rgb",
-          92,
-          99,
-          102
+          255,
+          255,
+          255
         ],
         "line-dasharray": [
           5,
@@ -124,9 +124,9 @@
       "paint": {
         "line-color": [
           "rgb",
-          92,
-          99,
-          102
+          255,
+          255,
+          255
         ],
         "line-dasharray": [
           1,
@@ -142,9 +142,9 @@
       "paint": {
         "fill-color": [
           "rgb",
-          187,
-          222,
-          251
+          255,
+          255,
+          255
         ]
       },
       "source": "v",
