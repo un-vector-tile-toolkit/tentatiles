@@ -45,7 +45,8 @@
           255,
           255,
           255
-        ]
+        ],
+        "line-width": 2
       },
       "source": "v",
       "source-layer": "bndl",
@@ -75,7 +76,8 @@
           2,
           2,
           2
-        ]
+        ],
+        "line-width": 2
       },
       "source": "v",
       "source-layer": "bndl",
@@ -103,7 +105,8 @@
         "line-dasharray": [
           5,
           1
-        ]
+        ],
+        "line-width": 2
       },
       "source": "v",
       "source-layer": "bndl",
@@ -131,7 +134,8 @@
         "line-dasharray": [
           1,
           1
-        ]
+        ],
+        "line-width": 2
       },
       "source": "v",
       "source-layer": "bndl",
